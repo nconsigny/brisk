@@ -1,0 +1,25 @@
+Titres de colonnes Brisk,Titres de colonnes Cfast
+Time (sec),Time
+Layer (m),HGT_1
+Upper Layer Temp (C),ULT_1
+Lower Layer Temp (C),LLT_1
+HRR (kW),HRR_1
+Unconstrained HRR (kW),HRR_E1
+O2 Upper (%),ULO2_1
+O2 Lower (%),LLO2_1
+Upper Wall Interface Temp (C),
+Lower Wall Interface Temp (C),
+Ceiling Interface Temp (C),
+Floor Interface Temp (C),
+Incident ceiling radiant flux (kW/m2),
+Incident upper wall radiant flux (kW/m2),
+Incident lower Wall radiant flux (kW/m2),
+Incident floor radiant flux (kW/m2),
+Upper Wall Temp (C),UWALLT_1
+Lower Wall Temp (C),LWALLT_1
+Ceiling Temp (C),CEILT_1
+Floor Temp (C),FLOORT_1
+Conv HT Coef UWall (W/m2.K),
+Conv HT Coef LWall (W/m2.K),
+Conv HT Coef Ceil (W/m2.K),
+Conv HT Coef Floor (W/m2.K),

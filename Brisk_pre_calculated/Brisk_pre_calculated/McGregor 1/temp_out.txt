@@ -1,0 +1,1404 @@
+
+January 23, 2025 23:15:09
+B-RISK Fire Simulator and Design Fire Tool (Ver 2024.3)
+
+Input Filename : input1.xml
+Base File : C:\Users\franc\CSTBGroup\These_Francois_Consigny - Documents\Calculs Feu\Programmes\python\Brisk_pre_calculated\McGregor 1\basemodel_Iter0.xml
+
+User Mode : Risk Simulator
+Simulation Time = 7140.00 seconds.
+Initial Time-Step = 1.00 seconds.
+
+
+
+====================================================================
+Description of Rooms
+====================================================================
+Room 1 : McGregor 1
+         Room Length (m) =                                 3.45
+         Room Width (m) =                                  4.45
+         Maximum Room Height (m) =                         2.45
+         Minimum Room Height (m) =                         2.45
+         Floor Elevation (m) =                             0.000
+         Absolute X Position (m) =                         0.000
+         Absolute Y Position (m) =                         0.000
+         Room 1 has a flat ceiling.
+         Shape Factor (Af/H^2) =                           2.6
+
+         Wall Surface is GYP1/2
+         Wall Density (kg/m3) =                            790.0
+         Wall Conductivity (W/m.K) =                       0.160
+         Wall Specific Heat (J/kg.K) =                     900
+         Wall Emissivity =                                 0.90
+         Wall Thickness (mm) =                             25.4
+         SQROOT Thermal Inertia (J.m-2.s-1/2.K-1) =        337
+
+         Wall Substrate is CLT
+         Wall Substrate Density (kg/m3) =                  515.0
+         Wall Substrate Conductivity (W/m.K) =             0.130
+         Wall Substrate Specific Heat (J/kg.K) =           1600
+         Wall Substrate Thickness (mm) =                   105.0
+
+         Ceiling Surface is GYP1/2
+         Ceiling Density (kg/m3) =                         790.0
+         Ceiling Conductivity (W/m.K) =                    0.160
+         Ceiling Specific Heat (J/kg.K) =                  900
+         Ceiling Emissivity =                              0.90
+         Ceiling Thickness (mm) =                          25.4
+         SQROOT Thermal Inertia (J.m-2.s-1/2.K-1) =        337
+
+         Ceiling Substrate is CLT
+         Ceiling Substrate Density (kg/m3) =               515.0
+         Ceiling Substrate Conductivity (W/m.K) =          0.130
+         Ceiling Substrate Specific Heat (J/kg.K) =        1600
+         Ceiling Substrate Thickness (mm) =                105.0
+
+         Floor Surface is fibre cement sheet
+         Floor Density (kg/m3) =                           1490.0
+         Floor Conductivity (W/m.K) =                      0.720
+         Floor Specific Heat (J/kg.K) =                    840
+         Floor Emissivity =                                0.88
+         Floor Thickness = (mm)                            12.7
+         SQROOT Thermal Inertia (J.m-2.s-1/2.K-1) =        949
+
+         Floor Substrate is GYP1/2
+         Floor Substrate Density (kg/m3) =                 790.0
+         Floor Substrate Conductivity (W/m.K) =            0.160
+         Floor Substrate Specific Heat (J/kg.K) =          900
+         Floor Substrate Thickness (mm) =                  15.9
+
+====================================================================
+Wall Vents
+====================================================================
+Vent  1 : McGregor 1_O1
+                   From room 1 to 2
+                   Front face of room 1
+                   Offset (m) =                            1.190
+                   Vent Width (m) =                        1.069
+                   Vent Height (m) =                       2.000
+                   Vent Sill Height (m) =                  0.000
+                   Vent Soffit Height (m) =                2.000
+                   Opening Time (sec) =                    0
+                   Closing Time (sec) =                    0
+                   Discharge Coefficient (-) =             0.680
+
+====================================================================
+Ceiling/Floor Vents
+====================================================================
+====================================================================
+Ambient Conditions
+====================================================================
+Interior Temp (C) =                                        5.5
+Exterior Temp (C) =                                        5.5
+Relative Humidity (%) =                                    50
+
+====================================================================
+Tenability Parameters
+====================================================================
+Monitoring Height for Visibility and FED (m) =             2.00
+Asphyxiant gas model =                                     FED(CO) C/VM2
+Visibility calculations assume:                            reflective signs
+Egress path segments for FED calculations
+1. Start Time (sec)                                        0
+1. End Time (sec)                                          600
+1. Room                                                    1
+2. Start Time (sec)                                        0
+2. End Time (sec)                                          0
+2. Room                                                    0
+3. Start Time (sec)                                        0
+3. End Time (sec)                                          0
+3. Room                                                    0
+
+====================================================================
+Sprinkler / Detector Parameters
+====================================================================
+         Ceiling Jet model used is NIST JET.
+         Sprinkler System Reliability                      1.000
+         Sprinkler Probability of Suppression              0.000
+         Sprinkler Cooling Coefficient                     1.000
+
+====================================================================
+Smoke Detector Parameters
+====================================================================
+         Smoke Detection System Reliability                1.000
+
+
+====================================================================
+Mechanical Ventilation (to/from outside)
+====================================================================
+Mechanical Ventilation not installed.
+         Mech ventilation system reliability               1.000
+
+
+====================================================================
+Description of the Fire
+====================================================================
+CO Yield pre-flashover(g/g) =                              0.040
+Soot Alpha Coefficient =                                   2.50
+Smoke Epsilon Coefficient =                                1.20
+Flame Emission Coefficient (1/m) =                         13.32
+Fuel - Carbon Moles                                        3.00
+Fuel - Hydrogen Moles                                      8.00
+Fuel - Oxygen Moles                                        0.00
+Fuel - Nitrogen Moles                                      0.00
+Stoichiometric air/fuel ratio                              0.0
+
+Burning objects are manually positioned in room.
+Enhanced burning submodel is                               OFF
+
+Burning Object No 1
+3 MW propane gas burner
+              Located in Room                              1
+              Energy Yield (kJ/g) =                        43.7
+              CO2 Yield (kg/kg fuel) =                     2.340
+              HCN Yield (kg/kg fuel) =                     0.000
+              H2O Yield (kg/kg fuel) =                     1.636
+              Soot Yield (kg/kg fuel) =                    0.024
+              Heat Release Rate Per Unit Area (kW/m2) =    250.0
+              Radiant Loss Fraction =                      0.30
+              Fire Elevation (m) =                         0.000
+              Fire Object Length (m) =                     1.700
+              Fire Object Width (m) =                      1.300
+              Fire Object Height (m) =                     0.000
+              Location, X-coordinate (m) =                 2.150
+              Location, Y-coordinate (m) =                 3.350
+              Fire Location (for entrainment)=             CORNER
+              Plume behaviour is                           UNDISTURBED
+
+              Time (sec)               Heat Release (kW)
+               0                       0
+               75                      68
+               150                     270
+               225                     608
+               300                     1080
+               375                     1688
+               450                     2430
+               525                     3308
+               600                     4320
+               675                     0
+               750                     0
+               825                     0
+               900                     0
+               975                     0
+               1050                    0
+               1125                    0
+               1200                    0
+               1275                    68
+               1350                    270
+               1425                    608
+               1500                    1080
+               1575                    1688
+               1650                    2430
+               1725                    3308
+               1800                    4247
+               1875                    3000
+               1950                    3000
+               2025                    3000
+               2100                    3000
+               2175                    3000
+               2250                    3000
+               2325                    3000
+               2400                    3000
+               2475                    3000
+               2550                    3000
+               2625                    3000
+               2700                    3000
+               2775                    3000
+               2850                    3000
+               2925                    3000
+               3000                    3000
+               3075                    3000
+               3150                    3000
+               3225                    3000
+               3300                    3000
+               3375                    2750
+               3450                    2500
+               3525                    2250
+               3600                    2000
+               3675                    1750
+               3750                    1500
+               3825                    1250
+               3900                    1000
+               3975                    750
+               4050                    500
+               4125                    250
+               4200                    0
+               4275                    0
+               4350                    0
+               4425                    0
+               4500                    0
+               4575                    0
+               4650                    0
+               4725                    0
+               4800                    0
+               4875                    0
+               4950                    0
+               5025                    0
+               5100                    0
+               5175                    0
+               5250                    0
+               5325                    0
+               5400                    0
+               5475                    0
+               5550                    0
+               5625                    0
+               5700                    0
+               5775                    0
+               5850                    0
+               5925                    0
+               6000                    0
+               6075                    0
+               6150                    0
+               6225                    0
+               6300                    0
+               6375                    0
+               6450                    0
+               6525                    0
+               6600                    0
+               6675                    0
+               6750                    0
+               6825                    0
+               6900                    0
+               6975                    0
+               7050                    0
+               7125                    0
+               7200                    0
+
+====================================================================
+Postflashover Inputs
+====================================================================
+Postflashover model is OFF.
+
+
+====================================================================
+Results from Fire Simulation
+====================================================================
+
+0 min    00 sec
+         (0 sec)                       Room 1    Outside
+
+         Layer (m)                     2.446
+         Upper Temp (C)                5.5
+         Lower Temp (C)                5.5
+         HRR (kW)                      0.0
+         Visibility (m) at 2m          20+
+         FED gases on egress path = 0.000
+         FED thermal on egress path = 0.000
+
+1 min    11 sec
+         (71 sec)                      Room 1    Outside
+
+         Layer (m)                     1.633
+         Upper Temp (C)                72.1
+         Lower Temp (C)                7.2
+         HRR (kW)                      63.9
+         Visibility (m) at 2m          4.50
+         FED gases on egress path = 0.002
+         FED thermal on egress path = 0.012
+
+2 min    22 sec
+         (142 sec)                     Room 1    Outside
+
+         Layer (m)                     1.573
+         Upper Temp (C)                194.2
+         Lower Temp (C)                14.9
+         HRR (kW)                      248.4
+         Visibility (m) at 2m          1.68
+         FED gases on egress path = 0.013
+         FED thermal on egress path = 0.498
+
+3 min    33 sec
+         (213 sec)                     Room 1    Outside
+
+         Layer (m)                     1.549
+         Upper Temp (C)                324.9
+         Lower Temp (C)                33.4
+         HRR (kW)                      553.5
+         Visibility (m) at 2m          1.04
+         FED gases on egress path = 0.055
+         FED thermal on egress path = 1.000
+
+4 min    44 sec
+         (284 sec)                     Room 1    Outside
+
+         Layer (m)                     1.521
+         Upper Temp (C)                453.4
+         Lower Temp (C)                63.3
+         HRR (kW)                      979.2
+         Visibility (m) at 2m          0.79
+         FED gases on egress path = 0.229
+         FED thermal on egress path = 1.000
+
+5 min    55 sec
+         (355 sec)                     Room 1    Outside
+
+         Layer (m)                     1.488
+         Upper Temp (C)                585.4
+         Lower Temp (C)                98.6
+         HRR (kW)                      1525.5
+         Visibility (m) at 2m          0.62
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+7 min    06 sec
+         (426 sec)                     Room 1    Outside
+
+         Layer (m)                     1.459
+         Upper Temp (C)                714.9
+         Lower Temp (C)                150.9
+         HRR (kW)                      2069.5
+         Visibility (m) at 2m          0.48
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+8 min    17 sec
+         (497 sec)                     Room 1    Outside
+
+         Layer (m)                     1.419
+         Upper Temp (C)                785.0
+         Lower Temp (C)                180.6
+         HRR (kW)                      2186.9
+         Visibility (m) at 2m          0.36
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+9 min    28 sec
+         (568 sec)                     Room 1    Outside
+
+         Layer (m)                     1.384
+         Upper Temp (C)                839.8
+         Lower Temp (C)                212.5
+         HRR (kW)                      2293.1
+         Visibility (m) at 2m          0.27
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+10 min   39 sec
+         (639 sec)                     Room 1    Outside
+
+         Layer (m)                     1.472
+         Upper Temp (C)                853.7
+         Lower Temp (C)                233.7
+         HRR (kW)                      2061.4
+         Visibility (m) at 2m          0.47
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+11 min   50 sec
+         (710 sec)                     Room 1    Outside
+
+         Layer (m)                     2.030
+         Upper Temp (C)                501.2
+         Lower Temp (C)                129.5
+         HRR (kW)                      0.0
+         Visibility (m) at 2m          20+
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+13 min   01 sec
+         (781 sec)                     Room 1    Outside
+
+         Layer (m)                     2.083
+         Upper Temp (C)                413.6
+         Lower Temp (C)                100.6
+         HRR (kW)                      0.0
+         Visibility (m) at 2m          20+
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+14 min   12 sec
+         (852 sec)                     Room 1    Outside
+
+         Layer (m)                     2.112
+         Upper Temp (C)                364.5
+         Lower Temp (C)                89.6
+         HRR (kW)                      0.0
+         Visibility (m) at 2m          20+
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+15 min   23 sec
+         (923 sec)                     Room 1    Outside
+
+         Layer (m)                     2.131
+         Upper Temp (C)                330.2
+         Lower Temp (C)                80.5
+         HRR (kW)                      0.0
+         Visibility (m) at 2m          20+
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+16 min   34 sec
+         (994 sec)                     Room 1    Outside
+
+         Layer (m)                     2.147
+         Upper Temp (C)                303.3
+         Lower Temp (C)                76.4
+         HRR (kW)                      0.0
+         Visibility (m) at 2m          20+
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+17 min   45 sec
+         (1065 sec)                    Room 1    Outside
+
+         Layer (m)                     2.158
+         Upper Temp (C)                283.0
+         Lower Temp (C)                71.3
+         HRR (kW)                      0.0
+         Visibility (m) at 2m          20+
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+18 min   56 sec
+         (1136 sec)                    Room 1    Outside
+
+         Layer (m)                     2.168
+         Upper Temp (C)                266.8
+         Lower Temp (C)                66.9
+         HRR (kW)                      0.0
+         Visibility (m) at 2m          20+
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+20 min   07 sec
+         (1207 sec)                    Room 1    Outside
+
+         Layer (m)                     2.095
+         Upper Temp (C)                227.4
+         Lower Temp (C)                63.4
+         HRR (kW)                      6.3
+         Visibility (m) at 2m          20+
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+21 min   18 sec
+         (1278 sec)                    Room 1    Outside
+
+         Layer (m)                     1.766
+         Upper Temp (C)                232.9
+         Lower Temp (C)                56.9
+         HRR (kW)                      75.6
+         Visibility (m) at 2m          3.95
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+22 min   29 sec
+         (1349 sec)                    Room 1    Outside
+
+         Layer (m)                     1.660
+         Upper Temp (C)                316.6
+         Lower Temp (C)                61.0
+         HRR (kW)                      267.3
+         Visibility (m) at 2m          1.92
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+23 min   40 sec
+         (1420 sec)                    Room 1    Outside
+
+         Layer (m)                     1.592
+         Upper Temp (C)                420.7
+         Lower Temp (C)                77.0
+         HRR (kW)                      585.0
+         Visibility (m) at 2m          1.18
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+24 min   51 sec
+         (1491 sec)                    Room 1    Outside
+
+         Layer (m)                     1.540
+         Upper Temp (C)                541.0
+         Lower Temp (C)                100.8
+         HRR (kW)                      1023.3
+         Visibility (m) at 2m          0.87
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+26 min   02 sec
+         (1562 sec)                    Room 1    Outside
+
+         Layer (m)                     1.500
+         Upper Temp (C)                673.1
+         Lower Temp (C)                143.7
+         HRR (kW)                      1582.2
+         Visibility (m) at 2m          0.67
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+27 min   13 sec
+         (1633 sec)                    Room 1    Outside
+
+         Layer (m)                     1.463
+         Upper Temp (C)                799.1
+         Lower Temp (C)                194.8
+         HRR (kW)                      2098.8
+         Visibility (m) at 2m          0.51
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+28 min   24 sec
+         (1704 sec)                    Room 1    Outside
+
+         Layer (m)                     1.425
+         Upper Temp (C)                863.9
+         Lower Temp (C)                239.2
+         HRR (kW)                      2224.4
+         Visibility (m) at 2m          0.38
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+29 min   35 sec
+         (1775 sec)                    Room 1    Outside
+
+         Layer (m)                     1.389
+         Upper Temp (C)                917.1
+         Lower Temp (C)                273.2
+         HRR (kW)                      2316.4
+         Visibility (m) at 2m          0.29
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+30 min   46 sec
+         (1846 sec)                    Room 1    Outside
+
+         Layer (m)                     1.403
+         Upper Temp (C)                947.4
+         Lower Temp (C)                277.1
+         HRR (kW)                      2260.4
+         Visibility (m) at 2m          0.32
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+31 min   57 sec
+         (1917 sec)                    Room 1    Outside
+
+         Layer (m)                     1.429
+         Upper Temp (C)                958.9
+         Lower Temp (C)                290.9
+         HRR (kW)                      2218.1
+         Visibility (m) at 2m          0.41
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+33 min   08 sec
+         (1988 sec)                    Room 1    Outside
+
+         Layer (m)                     1.430
+         Upper Temp (C)                977.3
+         Lower Temp (C)                306.1
+         HRR (kW)                      2221.4
+         Visibility (m) at 2m          0.41
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+34 min   19 sec
+         (2059 sec)                    Room 1    Outside
+
+         Layer (m)                     1.431
+         Upper Temp (C)                992.0
+         Lower Temp (C)                318.3
+         HRR (kW)                      2223.1
+         Visibility (m) at 2m          0.42
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+35 min   30 sec
+         (2130 sec)                    Room 1    Outside
+
+         Layer (m)                     1.431
+         Upper Temp (C)                1005.7
+         Lower Temp (C)                329.8
+         HRR (kW)                      2224.7
+         Visibility (m) at 2m          0.42
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+36 min   41 sec
+         (2201 sec)                    Room 1    Outside
+
+         Layer (m)                     1.432
+         Upper Temp (C)                1017.7
+         Lower Temp (C)                339.9
+         HRR (kW)                      2226.1
+         Visibility (m) at 2m          0.43
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+37 min   52 sec
+         (2272 sec)                    Room 1    Outside
+
+         Layer (m)                     1.432
+         Upper Temp (C)                1028.2
+         Lower Temp (C)                349.0
+         HRR (kW)                      2227.2
+         Visibility (m) at 2m          0.43
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+39 min   03 sec
+         (2343 sec)                    Room 1    Outside
+
+         Layer (m)                     1.433
+         Upper Temp (C)                1037.5
+         Lower Temp (C)                357.1
+         HRR (kW)                      2228.1
+         Visibility (m) at 2m          0.43
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+40 min   14 sec
+         (2414 sec)                    Room 1    Outside
+
+         Layer (m)                     1.433
+         Upper Temp (C)                1045.8
+         Lower Temp (C)                364.4
+         HRR (kW)                      2228.9
+         Visibility (m) at 2m          0.44
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+41 min   25 sec
+         (2485 sec)                    Room 1    Outside
+
+         Layer (m)                     1.433
+         Upper Temp (C)                1053.2
+         Lower Temp (C)                371.0
+         HRR (kW)                      2229.6
+         Visibility (m) at 2m          0.44
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+42 min   36 sec
+         (2556 sec)                    Room 1    Outside
+
+         Layer (m)                     1.432
+         Upper Temp (C)                1061.4
+         Lower Temp (C)                373.7
+         HRR (kW)                      2225.0
+         Visibility (m) at 2m          0.44
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+43 min   47 sec
+         (2627 sec)                    Room 1    Outside
+
+         Layer (m)                     1.433
+         Upper Temp (C)                1066.2
+         Lower Temp (C)                375.9
+         HRR (kW)                      2227.6
+         Visibility (m) at 2m          0.44
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+44 min   58 sec
+         (2698 sec)                    Room 1    Outside
+
+         Layer (m)                     1.432
+         Upper Temp (C)                1072.0
+         Lower Temp (C)                375.3
+         HRR (kW)                      2225.5
+         Visibility (m) at 2m          0.45
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+46 min   09 sec
+         (2769 sec)                    Room 1    Outside
+
+         Layer (m)                     1.432
+         Upper Temp (C)                1074.1
+         Lower Temp (C)                375.8
+         HRR (kW)                      2225.7
+         Visibility (m) at 2m          0.45
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+47 min   20 sec
+         (2840 sec)                    Room 1    Outside
+
+         Layer (m)                     1.432
+         Upper Temp (C)                1076.0
+         Lower Temp (C)                376.7
+         HRR (kW)                      2225.9
+         Visibility (m) at 2m          0.45
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+48 min   31 sec
+         (2911 sec)                    Room 1    Outside
+
+         Layer (m)                     1.430
+         Upper Temp (C)                1086.3
+         Lower Temp (C)                378.4
+         HRR (kW)                      2221.8
+         Visibility (m) at 2m          0.45
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+49 min   42 sec
+         (2982 sec)                    Room 1    Outside
+
+         Layer (m)                     1.431
+         Upper Temp (C)                1088.6
+         Lower Temp (C)                378.3
+         HRR (kW)                      2222.5
+         Visibility (m) at 2m          0.45
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+50 min   53 sec
+         (3053 sec)                    Room 1    Outside
+
+         Layer (m)                     1.430
+         Upper Temp (C)                1090.6
+         Lower Temp (C)                378.1
+         HRR (kW)                      2221.9
+         Visibility (m) at 2m          0.45
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+52 min   04 sec
+         (3124 sec)                    Room 1    Outside
+
+         Layer (m)                     1.429
+         Upper Temp (C)                1096.1
+         Lower Temp (C)                377.5
+         HRR (kW)                      2219.4
+         Visibility (m) at 2m          0.45
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+53 min   15 sec
+         (3195 sec)                    Room 1    Outside
+
+         Layer (m)                     1.429
+         Upper Temp (C)                1099.8
+         Lower Temp (C)                376.9
+         HRR (kW)                      2217.3
+         Visibility (m) at 2m          0.45
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+54 min   26 sec
+         (3266 sec)                    Room 1    Outside
+
+         Layer (m)                     1.429
+         Upper Temp (C)                1102.7
+         Lower Temp (C)                377.8
+         HRR (kW)                      2217.3
+         Visibility (m) at 2m          0.45
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+55 min   37 sec
+         (3337 sec)                    Room 1    Outside
+
+         Layer (m)                     1.435
+         Upper Temp (C)                1105.0
+         Lower Temp (C)                378.6
+         HRR (kW)                      2201.9
+         Visibility (m) at 2m          0.47
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+56 min   48 sec
+         (3408 sec)                    Room 1    Outside
+
+         Layer (m)                     1.447
+         Upper Temp (C)                1104.9
+         Lower Temp (C)                378.3
+         HRR (kW)                      2171.4
+         Visibility (m) at 2m          0.53
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+57 min   59 sec
+         (3479 sec)                    Room 1    Outside
+
+         Layer (m)                     1.461
+         Upper Temp (C)                1103.7
+         Lower Temp (C)                377.1
+         HRR (kW)                      2137.6
+         Visibility (m) at 2m          0.59
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+59 min   10 sec
+         (3550 sec)                    Room 1    Outside
+
+         Layer (m)                     1.477
+         Upper Temp (C)                1101.1
+         Lower Temp (C)                378.7
+         HRR (kW)                      2101.8
+         Visibility (m) at 2m          0.66
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+60 min   21 sec
+         (3621 sec)                    Room 1    Outside
+
+         Layer (m)                     1.493
+         Upper Temp (C)                1084.1
+         Lower Temp (C)                377.1
+         HRR (kW)                      1930.0
+         Visibility (m) at 2m          0.75
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+61 min   32 sec
+         (3692 sec)                    Room 1    Outside
+
+         Layer (m)                     1.513
+         Upper Temp (C)                1044.0
+         Lower Temp (C)                371.2
+         HRR (kW)                      1693.3
+         Visibility (m) at 2m          0.85
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+62 min   43 sec
+         (3763 sec)                    Room 1    Outside
+
+         Layer (m)                     1.531
+         Upper Temp (C)                998.6
+         Lower Temp (C)                338.6
+         HRR (kW)                      1456.7
+         Visibility (m) at 2m          0.95
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+63 min   54 sec
+         (3834 sec)                    Room 1    Outside
+
+         Layer (m)                     1.550
+         Upper Temp (C)                949.6
+         Lower Temp (C)                306.0
+         HRR (kW)                      1220.0
+         Visibility (m) at 2m          1.08
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+65 min   05 sec
+         (3905 sec)                    Room 1    Outside
+
+         Layer (m)                     1.575
+         Upper Temp (C)                892.7
+         Lower Temp (C)                277.6
+         HRR (kW)                      983.3
+         Visibility (m) at 2m          1.23
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+66 min   16 sec
+         (3976 sec)                    Room 1    Outside
+
+         Layer (m)                     1.605
+         Upper Temp (C)                831.7
+         Lower Temp (C)                259.9
+         HRR (kW)                      746.7
+         Visibility (m) at 2m          1.45
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+67 min   27 sec
+         (4047 sec)                    Room 1    Outside
+
+         Layer (m)                     1.641
+         Upper Temp (C)                766.0
+         Lower Temp (C)                226.9
+         HRR (kW)                      510.0
+         Visibility (m) at 2m          1.80
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+68 min   38 sec
+         (4118 sec)                    Room 1    Outside
+
+         Layer (m)                     1.694
+         Upper Temp (C)                689.7
+         Lower Temp (C)                195.2
+         HRR (kW)                      273.3
+         Visibility (m) at 2m          2.54
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+69 min   49 sec
+         (4189 sec)                    Room 1    Outside
+
+         Layer (m)                     1.817
+         Upper Temp (C)                605.3
+         Lower Temp (C)                176.9
+         HRR (kW)                      36.7
+         Visibility (m) at 2m          6.21
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+71 min   00 sec
+         (4260 sec)                    Room 1    Outside
+
+         Layer (m)                     2.007
+         Upper Temp (C)                630.8
+         Lower Temp (C)                176.1
+         HRR (kW)                      0.0
+         Visibility (m) at 2m          20+
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+72 min   11 sec
+         (4331 sec)                    Room 1    Outside
+
+         Layer (m)                     2.019
+         Upper Temp (C)                607.8
+         Lower Temp (C)                166.6
+         HRR (kW)                      0.0
+         Visibility (m) at 2m          20+
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+73 min   22 sec
+         (4402 sec)                    Room 1    Outside
+
+         Layer (m)                     2.031
+         Upper Temp (C)                586.8
+         Lower Temp (C)                158.2
+         HRR (kW)                      0.0
+         Visibility (m) at 2m          20+
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+74 min   33 sec
+         (4473 sec)                    Room 1    Outside
+
+         Layer (m)                     2.041
+         Upper Temp (C)                567.9
+         Lower Temp (C)                150.9
+         HRR (kW)                      0.0
+         Visibility (m) at 2m          20+
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+75 min   44 sec
+         (4544 sec)                    Room 1    Outside
+
+         Layer (m)                     2.050
+         Upper Temp (C)                550.9
+         Lower Temp (C)                144.6
+         HRR (kW)                      0.0
+         Visibility (m) at 2m          20+
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+76 min   55 sec
+         (4615 sec)                    Room 1    Outside
+
+         Layer (m)                     2.058
+         Upper Temp (C)                535.4
+         Lower Temp (C)                139.0
+         HRR (kW)                      0.0
+         Visibility (m) at 2m          20+
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+78 min   06 sec
+         (4686 sec)                    Room 1    Outside
+
+         Layer (m)                     2.066
+         Upper Temp (C)                521.1
+         Lower Temp (C)                133.9
+         HRR (kW)                      0.0
+         Visibility (m) at 2m          20+
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+79 min   17 sec
+         (4757 sec)                    Room 1    Outside
+
+         Layer (m)                     2.073
+         Upper Temp (C)                507.9
+         Lower Temp (C)                129.4
+         HRR (kW)                      0.0
+         Visibility (m) at 2m          20+
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+80 min   28 sec
+         (4828 sec)                    Room 1    Outside
+
+         Layer (m)                     2.080
+         Upper Temp (C)                495.5
+         Lower Temp (C)                125.3
+         HRR (kW)                      0.0
+         Visibility (m) at 2m          20+
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+81 min   39 sec
+         (4899 sec)                    Room 1    Outside
+
+         Layer (m)                     2.086
+         Upper Temp (C)                484.0
+         Lower Temp (C)                121.5
+         HRR (kW)                      0.0
+         Visibility (m) at 2m          20+
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+82 min   50 sec
+         (4970 sec)                    Room 1    Outside
+
+         Layer (m)                     2.092
+         Upper Temp (C)                473.0
+         Lower Temp (C)                117.9
+         HRR (kW)                      0.0
+         Visibility (m) at 2m          20+
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+84 min   01 sec
+         (5041 sec)                    Room 1    Outside
+
+         Layer (m)                     2.097
+         Upper Temp (C)                462.7
+         Lower Temp (C)                114.7
+         HRR (kW)                      0.0
+         Visibility (m) at 2m          20+
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+85 min   12 sec
+         (5112 sec)                    Room 1    Outside
+
+         Layer (m)                     2.102
+         Upper Temp (C)                452.9
+         Lower Temp (C)                111.6
+         HRR (kW)                      0.0
+         Visibility (m) at 2m          20+
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+86 min   23 sec
+         (5183 sec)                    Room 1    Outside
+
+         Layer (m)                     2.107
+         Upper Temp (C)                443.6
+         Lower Temp (C)                108.8
+         HRR (kW)                      0.0
+         Visibility (m) at 2m          20+
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+87 min   34 sec
+         (5254 sec)                    Room 1    Outside
+
+         Layer (m)                     2.111
+         Upper Temp (C)                434.7
+         Lower Temp (C)                106.1
+         HRR (kW)                      0.0
+         Visibility (m) at 2m          20+
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+88 min   45 sec
+         (5325 sec)                    Room 1    Outside
+
+         Layer (m)                     2.116
+         Upper Temp (C)                426.2
+         Lower Temp (C)                103.5
+         HRR (kW)                      0.0
+         Visibility (m) at 2m          20+
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+89 min   56 sec
+         (5396 sec)                    Room 1    Outside
+
+         Layer (m)                     2.120
+         Upper Temp (C)                417.6
+         Lower Temp (C)                101.7
+         HRR (kW)                      0.0
+         Visibility (m) at 2m          20+
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+91 min   07 sec
+         (5467 sec)                    Room 1    Outside
+
+         Layer (m)                     2.124
+         Upper Temp (C)                409.7
+         Lower Temp (C)                100.0
+         HRR (kW)                      0.0
+         Visibility (m) at 2m          20+
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+92 min   18 sec
+         (5538 sec)                    Room 1    Outside
+
+         Layer (m)                     2.128
+         Upper Temp (C)                402.3
+         Lower Temp (C)                99.9
+         HRR (kW)                      0.0
+         Visibility (m) at 2m          20+
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+93 min   29 sec
+         (5609 sec)                    Room 1    Outside
+
+         Layer (m)                     2.132
+         Upper Temp (C)                395.2
+         Lower Temp (C)                98.6
+         HRR (kW)                      0.0
+         Visibility (m) at 2m          20+
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+94 min   40 sec
+         (5680 sec)                    Room 1    Outside
+
+         Layer (m)                     2.135
+         Upper Temp (C)                388.3
+         Lower Temp (C)                96.6
+         HRR (kW)                      0.0
+         Visibility (m) at 2m          20+
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+95 min   51 sec
+         (5751 sec)                    Room 1    Outside
+
+         Layer (m)                     2.138
+         Upper Temp (C)                381.6
+         Lower Temp (C)                94.7
+         HRR (kW)                      0.0
+         Visibility (m) at 2m          20+
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+97 min   02 sec
+         (5822 sec)                    Room 1    Outside
+
+         Layer (m)                     2.142
+         Upper Temp (C)                375.1
+         Lower Temp (C)                92.8
+         HRR (kW)                      0.0
+         Visibility (m) at 2m          20+
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+98 min   13 sec
+         (5893 sec)                    Room 1    Outside
+
+         Layer (m)                     2.145
+         Upper Temp (C)                368.8
+         Lower Temp (C)                91.0
+         HRR (kW)                      0.0
+         Visibility (m) at 2m          20+
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+99 min   24 sec
+         (5964 sec)                    Room 1    Outside
+
+         Layer (m)                     2.148
+         Upper Temp (C)                362.7
+         Lower Temp (C)                89.3
+         HRR (kW)                      0.0
+         Visibility (m) at 2m          20+
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+100 min  35 sec
+         (6035 sec)                    Room 1    Outside
+
+         Layer (m)                     2.151
+         Upper Temp (C)                356.7
+         Lower Temp (C)                87.7
+         HRR (kW)                      0.0
+         Visibility (m) at 2m          20+
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+101 min  46 sec
+         (6106 sec)                    Room 1    Outside
+
+         Layer (m)                     2.154
+         Upper Temp (C)                351.0
+         Lower Temp (C)                86.1
+         HRR (kW)                      0.0
+         Visibility (m) at 2m          20+
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+102 min  57 sec
+         (6177 sec)                    Room 1    Outside
+
+         Layer (m)                     2.157
+         Upper Temp (C)                345.4
+         Lower Temp (C)                84.6
+         HRR (kW)                      0.0
+         Visibility (m) at 2m          20+
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+104 min  08 sec
+         (6248 sec)                    Room 1    Outside
+
+         Layer (m)                     2.159
+         Upper Temp (C)                339.9
+         Lower Temp (C)                83.1
+         HRR (kW)                      0.0
+         Visibility (m) at 2m          20+
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+105 min  19 sec
+         (6319 sec)                    Room 1    Outside
+
+         Layer (m)                     2.162
+         Upper Temp (C)                334.6
+         Lower Temp (C)                81.7
+         HRR (kW)                      0.0
+         Visibility (m) at 2m          20+
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+106 min  30 sec
+         (6390 sec)                    Room 1    Outside
+
+         Layer (m)                     2.164
+         Upper Temp (C)                329.5
+         Lower Temp (C)                80.3
+         HRR (kW)                      0.0
+         Visibility (m) at 2m          20+
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+107 min  41 sec
+         (6461 sec)                    Room 1    Outside
+
+         Layer (m)                     2.167
+         Upper Temp (C)                324.5
+         Lower Temp (C)                79.0
+         HRR (kW)                      0.0
+         Visibility (m) at 2m          20+
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+108 min  52 sec
+         (6532 sec)                    Room 1    Outside
+
+         Layer (m)                     2.169
+         Upper Temp (C)                319.6
+         Lower Temp (C)                77.7
+         HRR (kW)                      0.0
+         Visibility (m) at 2m          20+
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+110 min  03 sec
+         (6603 sec)                    Room 1    Outside
+
+         Layer (m)                     2.172
+         Upper Temp (C)                314.6
+         Lower Temp (C)                77.1
+         HRR (kW)                      0.0
+         Visibility (m) at 2m          20+
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+111 min  14 sec
+         (6674 sec)                    Room 1    Outside
+
+         Layer (m)                     2.174
+         Upper Temp (C)                309.5
+         Lower Temp (C)                77.0
+         HRR (kW)                      0.0
+         Visibility (m) at 2m          20+
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+112 min  25 sec
+         (6745 sec)                    Room 1    Outside
+
+         Layer (m)                     2.177
+         Upper Temp (C)                304.3
+         Lower Temp (C)                76.9
+         HRR (kW)                      0.0
+         Visibility (m) at 2m          20+
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+113 min  36 sec
+         (6816 sec)                    Room 1    Outside
+
+         Layer (m)                     2.179
+         Upper Temp (C)                299.7
+         Lower Temp (C)                75.8
+         HRR (kW)                      0.0
+         Visibility (m) at 2m          20+
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+114 min  47 sec
+         (6887 sec)                    Room 1    Outside
+
+         Layer (m)                     2.181
+         Upper Temp (C)                295.3
+         Lower Temp (C)                74.6
+         HRR (kW)                      0.0
+         Visibility (m) at 2m          20+
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+115 min  58 sec
+         (6958 sec)                    Room 1    Outside
+
+         Layer (m)                     2.184
+         Upper Temp (C)                291.0
+         Lower Temp (C)                73.5
+         HRR (kW)                      0.0
+         Visibility (m) at 2m          20+
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+117 min  09 sec
+         (7029 sec)                    Room 1    Outside
+
+         Layer (m)                     2.186
+         Upper Temp (C)                286.8
+         Lower Temp (C)                72.4
+         HRR (kW)                      0.0
+         Visibility (m) at 2m          20+
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+118 min  20 sec
+         (7100 sec)                    Room 1    Outside
+
+         Layer (m)                     2.188
+         Upper Temp (C)                282.7
+         Lower Temp (C)                71.3
+         HRR (kW)                      0.0
+         Visibility (m) at 2m          20+
+         FED gases on egress path = 1.000
+         FED thermal on egress path = 1.000
+
+
+====================================================================
+Event Log
+====================================================================
+FED(thermal) Exceeded 0.3 at 131.0 Seconds.
+FED(CO) Exceeded 0.3 at 296.0 Seconds.
+409 sec. Ventilation Limit 2024 kW.
+Fitted t2 alpha coefficient (kW/s2) = 0.012
+311 sec. Flashover in Room 1.
+32 sec. Visibility at 2m above floor reduced to 10 m in room 1
+0 sec. Item 1 3 MW propane gas burner ignited. 
+Iteration 1
+
+
+====================================================================
+Computer Run-Time = 5.8 seconds.
+====================================================================

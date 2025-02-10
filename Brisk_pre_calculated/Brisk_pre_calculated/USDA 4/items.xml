@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <version>2024.1</version>
+  <Item>
+    <id>1</id>
+    <description>USDA 5_hrr</description>
+    <detaileddescription>USDA 5_hrr</detaileddescription>
+    <userlabel>OBJ</userlabel>
+    <type>Generic</type>
+    <length>0.3</length>
+    <width>0.3</width>
+    <height>0</height>
+    <mass>2662.392</mass>
+    <critical_flux_pilot>9.5</critical_flux_pilot>
+    <critical_flux_auto>22</critical_flux_auto>
+    <FTP_limit_pilot>481</FTP_limit_pilot>
+    <FTP_limit_auto>427</FTP_limit_auto>
+    <FTP_index_pilot>1</FTP_index_pilot>
+    <FTP_index_auto>1</FTP_index_auto>
+    <probability>0</probability>
+    <hrr>0.0,0.0,26.8,8.6,53.7,34.6,80.5,77.8,107.3,138.2,134.1,215.8,161.0,311.1,187.8,423.2,214.6,552.6,241.5,699.9,268.3,863.8,295.1,1045.0,321.9,1243.4,348.8,1459.9,375.6,1692.9,402.4,1943.1,429.3,2211.6,456.1,2496.3,482.9,2798.3,509.7,3117.5,536.6,3455.3,563.4,3809.0,590.2,4180.0,617.1,4569.7,643.9,4975.3,670.7,5398.1,697.5,5838.1,724.4,6297.1,751.2,6771.6,778.0,7263.4,804.9,7774.4,831.7,8300.7,858.5,8844.3,885.3,9405.1,912.2,9985.3,939.0,10580.7,965.8,11193.2,992.7,11825.4,1019.5,12472.6,1046.3,13136.9,1073.1,13818.5,1100.0,14520.0,1126.8,15236.1,1153.6,15969.5,1180.5,16723.0,1207.3,17490.9,1234.1,18276.0,1260.9,19078.4,1287.8,19901.1,1314.6,20738.1,1331.8,20462.1,1348.9,20192.4,1366.1,19926.8,1383.3,19666.9,1400.4,19414.3,1417.6,19165.8,1434.8,18923.1,1452.0,18686.1,1469.1,18456.1,1486.3,18230.5,1503.5,18010.6,1520.6,17797.7,1537.8,17589.2,1555.0,17386.5,1572.1,17190.6,1589.3,16999.3,1606.5,16813.7,1623.6,16634.8,1640.8,16460.6,1658.0,16292.1,1675.2,16129.3,1692.3,15973.2,1709.5,15821.8,1726.7,15676.2,1743.8,15537.1,1761.0,15402.9,1778.2,15274.4,1795.3,15152.3,1812.5,15035.2,1829.7,14923.8,1846.9,14818.2,1864.0,14718.8,1881.2,14624.6,1898.4,14536.1,1915.5,14453.7,1932.7,14376.6,1949.9,14305.3,1967.0,14240.0,1984.2,14180.0,2001.4,14125.7,2018.5,14077.5,2035.7,14034.6,2052.9,13997.5,2070.1,13966.1,2087.2,13940.5,2104.4,13920.5,2121.6,13906.3,2138.7,13897.8,2155.9,13894.9,2332.3,7206.0,2508.7,4864.4,2685.1,3671.4,2861.5,2948.3,3038.0,2462.9,3214.4,2115.0,3390.8,1853.1,3567.2,1649.0,3743.6,1485.4,3920.0,1351.3,4096.4,1239.4,4272.8,1144.6,4449.2,1063.3,4625.6,992.8,4802.1,931.0,4978.5,876.5,5154.9,828.0,5331.3,784.6,5507.7,745.6,5684.1,710.2,5860.5,678.0,6036.9,648.6,6213.3,621.7,6389.7,596.9,6566.2,574.0,6742.6,552.8,6919.0,533.1,7095.4,514.8,7271.8,497.7,7448.2,481.7,7624.6,466.6,7801.0,452.5,7977.4,439.3,8153.8,426.7,8330.3,414.9,8506.7,403.7,8683.1,393.1,8859.5,383.1,9035.9,373.5,9212.3,364.4,9388.7,355.7,9565.1,347.5,9741.5,339.6,9917.9,332.1,10094.4,324.9,10270.8,318.0,10447.2,311.3,10623.6,305.0,10800.0,298.9</hrr>
+    <mlr />
+    <ignition_time>0</ignition_time>
+    <max_num>1</max_num>
+    <xleft>4.27</xleft>
+    <ybottom>4.238</ybottom>
+    <constantA>0</constantA>
+    <constantB>0</constantB>
+    <windeffect>1</windeffect>
+    <pyrolysisoption>0</pyrolysisoption>
+    <pooldensity>0</pooldensity>
+    <pooldiameter>0</pooldiameter>
+    <poolFBMLR>0</poolFBMLR>
+    <poolramp>0</poolramp>
+    <poolvolume>0</poolvolume>
+    <poolvaptemp>0</poolvaptemp>
+    <idistribution>
+      <varname>heat of combustion</varname>
+      <value>12.4</value>
+      <distribution>None</distribution>
+      <mean>0</mean>
+      <variance>0</variance>
+      <lbound>0</lbound>
+      <ubound>0</ubound>
+      <mode>0</mode>
+      <alpha>0</alpha>
+      <beta>0</beta>
+    </idistribution>
+    <idistribution>
+      <varname>soot yield</varname>
+      <value>0.015</value>
+      <distribution>None</distribution>
+      <mean>0</mean>
+      <variance>0</variance>
+      <lbound>0</lbound>
+      <ubound>0</ubound>
+      <mode>0</mode>
+      <alpha>0</alpha>
+      <beta>0</beta>
+    </idistribution>
+    <idistribution>
+      <varname>co2 yield</varname>
+      <value>1.33</value>
+      <distribution>None</distribution>
+      <mean>0</mean>
+      <variance>0</variance>
+      <lbound>0</lbound>
+      <ubound>0</ubound>
+      <mode>0</mode>
+      <alpha>0</alpha>
+      <beta>0</beta>
+    </idistribution>
+    <idistribution>
+      <varname>Latent Heat of Gasification</varname>
+      <value>3</value>
+      <distribution>None</distribution>
+      <mean>0</mean>
+      <variance>0</variance>
+      <lbound>0</lbound>
+      <ubound>0</ubound>
+      <mode>0</mode>
+      <alpha>0</alpha>
+      <beta>0</beta>
+    </idistribution>
+    <idistribution>
+      <varname>Radiant Loss Fraction</varname>
+      <value>0.298</value>
+      <distribution>None</distribution>
+      <mean>0</mean>
+      <variance>0</variance>
+      <lbound>0</lbound>
+      <ubound>0</ubound>
+      <mode>0</mode>
+      <alpha>0</alpha>
+      <beta>0</beta>
+    </idistribution>
+    <idistribution>
+      <varname>HRRUA</varname>
+      <value>250</value>
+      <distribution>None</distribution>
+      <mean>0</mean>
+      <variance>0</variance>
+      <lbound>0</lbound>
+      <ubound>0</ubound>
+      <mode>0</mode>
+      <alpha>0</alpha>
+      <beta>0</beta>
+    </idistribution>
+    <idistribution>
+      <varname>Elevation</varname>
+      <value>0</value>
+      <distribution>None</distribution>
+      <mean>0</mean>
+      <variance>0</variance>
+      <lbound>0</lbound>
+      <ubound>0</ubound>
+      <mode>0</mode>
+      <alpha>0</alpha>
+      <beta>0</beta>
+    </idistribution>
+  </Item>
+</Items>
