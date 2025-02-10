@@ -1,5 +1,6 @@
 # Virtual environment
-brisk_env/
+briskenv/
+/home/niardo/brisk/briskenv
 
 # Python
 __pycache__/
