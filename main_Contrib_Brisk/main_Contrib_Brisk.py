@@ -75,6 +75,7 @@ import time
 from datetime import timedelta
 import sys
 from Files_utils import init_cfast_basemodel
+import subprocess
 # # from concurrent.futures import ProcessPoolExecutor
 # from concurrent.futures import ThreadPoolExecutor
 # import multiprocessing
@@ -130,7 +131,18 @@ def fill_none_with_previous(df, header):
 #     Contrib_calc.boucle_calculs(elem)
 
 
+# Launch the Windows Brisk program from WSL
+def launch_windows_brisk():
+    windows_brisk_path = "C:\\Program Files\\Brisk\\Brisk.exe"  # update this path if needed
+    try:
+        subprocess.Popen(["cmd.exe", "/c", "start", "", windows_brisk_path])
+        print("Launched Brisk program on Windows.")
+    except Exception as e:
+        print(f"Failed to launch Brisk program: {e}")
+
+
 def main():
+    launch_windows_brisk()
     # noinspection SpellCheckingInspection
     # #Déclarer le fichier comme une variable globale
     # fichier = open(EnvB.CurPath + '\\run.txt', 'w')
